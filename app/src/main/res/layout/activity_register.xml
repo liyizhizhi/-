@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#ffd341"
+    android:layout_height="match_parent"
+    tools:context=".view.activity.RegisterActivity">
+    <TextView
+        android:text="维度商城"
+        android:layout_width="350dp"
+        android:textSize="50dp"
+        android:textColor="#ff0000"
+        android:gravity="center"
+        android:layout_height="70dp" />
+    <LinearLayout
+        android:background="#32f8ff"
+        android:layout_width="350dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_height="400dp">
+        <TextView
+            android:text="注册"
+            android:gravity="center"
+            android:textColor="#000000"
+            android:textSize="35dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:id="@+id/name2"
+            android:ems="15"
+            android:hint="请输入用户名"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:id="@+id/pass2"
+            android:ems="15"
+            android:layout_marginTop="20dp"
+            android:hint="请输入密码"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/zhuce2"
+            android:text="注册"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</LinearLayout>
